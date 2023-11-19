@@ -14,15 +14,15 @@ return [
 
 
     'basicAuth' => [
-        'store_url' => env("BIGCOMMERCE_STORE_URL", null),
-        'username'  => env("BIGCOMMERCE_USERNAME", null),
-        'api_key'   => env("BIGCOMMERCE_API_KEY", null)
+        'store_url' => env("BIGCOMMERCE_STORE_URL"),
+        'username'  => env("BIGCOMMERCE_USERNAME"),
+        'api_key'   => env("BIGCOMMERCE_API_KEY"),
     ],
 
     'oAuth' => [
-        'client_id'     => env("BIGCOMMERCE_CLIENT_ID", null),
-        'client_secret' => env("BIGCOMMERCE_CLIENT_SECRET", null),
-        'redirect_url'  => env("BIGCOMMERCE_REDIRECT_URL", null)
+        'client_id'     => env("BIGCOMMERCE_CLIENT_ID"),
+        'client_secret' => env("BIGCOMMERCE_CLIENT_SECRET"),
+        'redirect_url'  => env("BIGCOMMERCE_REDIRECT_URL"),
     ],
 
 ];
